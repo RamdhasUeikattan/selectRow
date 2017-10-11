@@ -5,8 +5,8 @@ import { GridComponent } from '@syncfusion/ej2-ng-grids';
 @Component({
     selector: 'my-app',
     template: `
-    <input (change)='change($event)'>
-    <ej-grid #grid [dataSource]='data' height='315px'>
+    <input (change)='change($event)' placeholder='enter Row index'>
+    <ej-grid #grid [dataSource]='data' height='415px'>
                 <e-columns>
                     <e-column field='OrderID' headerText='Order ID' textAlign='right' width=120></e-column>
                     <e-column field='CustomerID' headerText='Customer ID' width=150></e-column>
